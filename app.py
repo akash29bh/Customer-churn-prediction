@@ -37,7 +37,7 @@ option = st.sidebar.selectbox("Choose a section", ["Overview", "Plots", "Models"
 
 # --- OVERVIEW ---
 if option == "Overview":
-    st.header("Overview of the Dataset")
+    st.header("Customer Churn Prediction")
 
     # Checkboxes for various overview items
     if st.sidebar.checkbox("Display top 5 rows"):
